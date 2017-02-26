@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-image: url(https://eskilstunaifokus.files.wordpress.com/2014/08/tiggare.jpg);
+    background-size: 100%;
+}
+
+h1{
+    font-family: "Comic Sans MS";
+    margin: 100px;
+    color: white;
+    text-decoration: underline;
+}
+
+
+#hello{
+    font-family: "Comic Sans MS";
+    width: 200px;
+    height: 30px;
+    border-style: none;
+    border-radius: 20px;
+    outline: none;
+    transition-duration: 100ms;
+    cursor: pointer;
+}
+
+#hello:active{
+    transform:scale(0.95);
+}
+
+#counter{
+    position: fixed;
+    top:5%;
+    left:5%;
+    color: white;
+}
